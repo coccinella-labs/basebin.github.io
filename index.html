@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark light">
+    <title>basebin</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <main class="shell" aria-label="basebin tree">
+      <section class="tree" aria-label="nodes">
+        <button class="node root is-active" type="button" data-node="basebin" aria-pressed="true">
+          <span class="mark box" aria-hidden="true"></span>
+          <span>basebin</span>
+        </button>
+
+        <div class="branch" aria-hidden="true"></div>
+
+        <div class="leaves">
+          <button class="node" type="button" data-node="harpertoken" aria-pressed="false">
+            <span class="mark cup" aria-hidden="true"></span>
+            <span>harpertoken</span>
+          </button>
+          <button class="node" type="button" data-node="libnudget" aria-pressed="false">
+            <span class="mark share" aria-hidden="true"></span>
+            <span>libnudget</span>
+          </button>
+          <button class="node" type="button" data-node="coccinella-labs" aria-pressed="false">
+            <span class="mark bug" aria-hidden="true"></span>
+            <span>coccinella-labs</span>
+          </button>
+        </div>
+      </section>
+
+      <aside class="panel" aria-live="polite">
+        <p class="label">node</p>
+        <h1 id="node-name">basebin</h1>
+        <dl>
+          <div>
+            <dt>kind</dt>
+            <dd id="node-kind">index</dd>
+          </div>
+          <div>
+            <dt>link</dt>
+            <dd><a id="node-link" href="https://github.com/basebin">github.com/basebin</a></dd>
+          </div>
+          <div>
+            <dt>note</dt>
+            <dd id="node-note">public entry point.</dd>
+          </div>
+        </dl>
+      </aside>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
