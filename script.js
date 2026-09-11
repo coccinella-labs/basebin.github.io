@@ -7,8 +7,8 @@ const nodes = {
   },
   harpertoken: {
     kind: "software",
-    link: "https://github.com/harpertoken",
-    text: "github.com/harpertoken",
+    link: "https://github.com/coccinella-labs",
+    text: "github.com/coccinella-labs",
     note: "developer tooling.",
   },
   libnudget: {
